@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: peachpuff;
+}
+.banner {
+    background-color: saddlebrown;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    margin: 0;
+    
+}
+.main li {
+    color: green;
+    font-weight: bold;
+    display: inline;
+    margin: 15px;
+}
+.color-p {
+    color: saddlebrown;
+}

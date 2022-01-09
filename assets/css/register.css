@@ -1,0 +1,74 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.bg-img {
+    background-image: url(../img/blue-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar {
+    background-color: #696969;
+}
+.navbar ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 10px;
+}
+.navbar ul li {
+    display: inline;
+    margin: 10px;
+}
+.navbar ul .li-logo a {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.register {
+    width: 1060px;
+    height: 650px;
+    display: flex;
+}
+.img {
+    width: 530px;
+    height: 650px;
+}
+.form {
+    height: 650px;
+    width: 530px;
+    background-color: white;
+}
+.form-input {
+    width: 300px;
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid grey;
+    margin: 5px;
+}
+.form-submit {
+    width: 115px;
+    height: 37px;
+    background-color: orange;
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+.sign-in-link {
+    text-decoration: none;
+}
+.account-p {
+    color: grey;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
